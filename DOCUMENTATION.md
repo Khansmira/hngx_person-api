@@ -105,7 +105,7 @@ Expected Response:
 Status Code: 204 No Content
 
 
-Standard Request and Response Formats
+### Standard Request and Response Formats
 All API requests and responses follow the JSON format.
 
 
