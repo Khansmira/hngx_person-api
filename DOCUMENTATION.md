@@ -22,9 +22,9 @@ This API allows you to perform CRUD operations on people resources. You can crea
 ### Create a New Person
 
 - HTTP Method: POST
-- URL: `/api/people/`
+- URL: /api/people/
 - Request Body:
-  ```json
+  json
   {
       "name": "New Person",
       "email": "new@example.com",
@@ -36,7 +36,7 @@ Expected Response:
 Status Code: 201 CREATED
 
 Response Body (Sample):
-```json
+json
 {
     "id": 4,
     "name": "New Person",
@@ -49,13 +49,13 @@ Response Body (Sample):
 ### Retrieve Person Details
 
 HTTP Method: GET
-URL: `/api/people/<id>/`
+URL: /api/people/<id>/
 
 Expected Response:
 Status Code: 200 OK
 
 Response Body (Sample):
-```json
+json
 
 {
     "id": 4,
@@ -69,10 +69,10 @@ Response Body (Sample):
 ### Update Person Details
 
 HTTP Method: PUT
-URL: `/api/people/<id>/`
+URL: /api/people/<id>/
 
 Request Body:
-```json
+json
 
 {
     "name": "Updated Name",
@@ -85,7 +85,7 @@ Expected Response:
 Status Code: 201 CREATED
 
 Response Body (Sample):
-```json
+json
 
 {
     "id": 4,
@@ -115,6 +115,4 @@ Here are some sample API usage scenarios:
 Creating a new person.
 Retrieving person details by ID.
 Updating person details.
-Deleting a person.
-
-![UML Diagram](assets/uml_diagram/IMG-3555.jpg)
+Deleting a person
