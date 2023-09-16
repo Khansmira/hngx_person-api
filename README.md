@@ -1,6 +1,6 @@
 # person-API
 
-![Project Logo](logo.png)
+![UML Diagram](hngx_person-api/uml/IMG-3555.jpg)
 
 ## Introduction
 
